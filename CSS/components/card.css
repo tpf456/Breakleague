@@ -1,0 +1,45 @@
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin: 20px;
+  background-color:white;
+  box-shadow : 0px 10px 30px rgba(0,0,0,0.3);
+  border-radius: 4px
+}
+.image p {
+  margin: 20px;
+  font-size: 14px;
+
+}
+.image img {
+  height: 100px;
+  width: 100px;
+}
+.sponsors,.partenaires {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.sponsor,.partenaire {
+  padding: 0px;
+  flex-grow: 1;
+  margin: 20px;
+  min-width: 150px;
+  text-align: center;
+  box-shadow : 0px 10px 30px rgba(0,0,0,0.3);
+  border-radius: 4px;
+  background-color:white;
+}
+.logo-battle,.logo-partenaire{
+  width: 140px;
+  height: 140px;
+}

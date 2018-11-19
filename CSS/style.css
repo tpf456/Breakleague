@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Permanent+Marker|Raleway|Neucha");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+body {
+	font-family:'Raleway', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+}
+h1,h2,h3 {
+	font-family:'Lato', sans-serif;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+}
+.titre2 {
+  font-family: 'Permanent Marker', cursive;
+  color: #CA971E;
+  text-align: center;
+}
